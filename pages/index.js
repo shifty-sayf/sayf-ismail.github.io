@@ -11,8 +11,8 @@ export default function Home() {
           <div className='btn items-center mix-blend-overlay  '>
             <p className='bg-stone-100 absolute z-10 h-full w-full mt-20 opacity-0 focus:opacity-100 hover:opacity-100 text-black font-thin justify-center mix-blend-normal indent-4'>Get started by typing into the prompt to learn more!  </p>
             <p>
-              <br />
-              <a className='bg-black hover:underline text-blue-50 ' href='#'> APP </a>
+              {/* <br />
+              <a className='bg-black hover:underline text-blue-50 ' href=''> APP </a> */}
             </p>
             <Image 
               src="/static/dome.jpg"         alt="Booterfly!"
