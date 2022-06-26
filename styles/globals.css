@@ -25,7 +25,7 @@ html, body, #__next, #app, main {
 }
 
 ::-webkit-scrollbar-thumb { 
-  background:linear-gradient(135deg, rgb(241, 33, 245), rgb(10, 231, 251));
+  background:linear-gradient(135deg, rgb(11, 89, 11), rgb(88, 174, 2));
 }
 
 .btn {

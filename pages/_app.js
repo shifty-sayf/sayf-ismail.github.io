@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
         </div>
       </nav>
     </header>
-    <div className='my-8 justify-center items-center hover:shadow-lg'>
+    <div className='my-8 justify-center items-center'>
      <Component {...pageProps}/>
     </div>
     <footer className='bottom-0 flex-none w-full bg-gradient-to-r from-slate-200 to-gray-50 py-8 text-stone-700 font-bold'>
