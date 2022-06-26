@@ -7,9 +7,13 @@ export default function Home() {
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center gap-5 sm:gap-0 md:gap-1 lg:gap-1 items-center p-0 m-0 max-w-7xl mx-auto'>
       
         <div className='bg-gray-600 relative'>
-          <p className='absolute left-4 text-4xl justify-center text-white '>PROJECT: 1</p>
+          <p className='absolute left-4 text-4xl justify-center text-white '>"ABOUT ME" Terminal</p>
           <div className='btn items-center mix-blend-overlay  '>
-            <p className='bg-stone-100 absolute z-10 h-full w-full mt-20 opacity-0 focus:opacity-100 text-black font-thin justify-center mix-blend-normal'>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. <a className='hover:underline text-blue-600' href='#'>Learn more...</a> </p>
+            <p className='bg-stone-100 absolute z-10 h-full w-full mt-20 opacity-0 focus:opacity-100 hover:opacity-100 text-black font-thin justify-center mix-blend-normal indent-4'>Get started by typing "help" to learn more!  </p>
+            <p>
+              <br />
+              <a className='bg-black hover:underline text-blue-50 ' href='#'> APP </a>
+            </p>
             <Image 
               src="/static/dome.jpg"         alt="Booterfly!"
               width={"800"}
@@ -17,13 +21,12 @@ export default function Home() {
               objectFit="cover"          
               className=''
             />
-
           </div>
         </div>
         <div className='bg-gray-800 relative'>
           <p className='absolute left-4 text-4xl justify-center text-white '>PROJECT: 2</p>
           <div className='btn items-center mix-blend-overlay hover:blur-sm'>
-            <a href="/" className='h-0 w-0 '>
+            <a href="" className='h-0 w-0 '>
               <Image 
                 src="/static/caterpillar.jpeg"         alt="Booterfly!"
                 width={"800"}
@@ -37,7 +40,7 @@ export default function Home() {
         <div className='bg-gray-700 relative'>
           <p className='absolute left-4 text-4xl justify-center text-white '>PROJECT: 3</p>
           <div className='btn items-center mix-blend-overlay hover:blur-sm'>
-            <a href="/" className=''>
+            <a href="" className=''>
               <Image 
                 src="/static/butterfly_park.jpeg"         alt="Booterfly!"
                 width={"800"}
@@ -65,7 +68,7 @@ export default function Home() {
         <div className='bg-gray-600 relative'>
           <p className='absolute left-4 text-4xl justify-center text-white '>PROJECT: 5</p>
           <div className='btn items-center mix-blend-overlay hover:blur-sm'>
-            <a href="/" className=''>
+            <a href="" className=''>
               <Image 
                 src="/static/shop_fish.jpeg"         alt="Booterfly!"
                 width={"800"}

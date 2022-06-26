@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       ABOUT PAGE
-      <Link href="/">Back to Home</Link>
+      <Link href="">Back to Home</Link>
     </div>
   )
 };

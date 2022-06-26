@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <div>
       index {router().query.pid}
-      <Link href="/">Back to Home</Link>
+      <Link href="">Back to Home</Link>
     </div>
   )
 }
