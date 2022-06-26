@@ -1,5 +1,7 @@
 import Image from 'next/image'
 
+const prefix = '/projects';
+
 export default function Home() {
   return (
     // <main className='items-center sm:bg-yellow-300 md:bg-green-300 lg:bg-pink-300 xl:bg-blue-300 2xl:bg-red-300 w-full'>
@@ -15,7 +17,7 @@ export default function Home() {
               <a className='bg-black hover:underline text-blue-50 ' href=''> APP </a> */}
             </p>
             <Image 
-              src="/static/dome.jpg"         alt="Booterfly!"
+              src="/projects/static/dome.jpg"         alt="Booterfly!"
               width={"800"}
               height={"800"} 
               objectFit="cover"          
@@ -28,7 +30,7 @@ export default function Home() {
           <div className='btn items-center mix-blend-overlay hover:blur-sm'>
             <a href="" className='h-0 w-0 '>
               <Image 
-                src="/static/caterpillar.jpeg"         alt="Booterfly!"
+                src="/projects/static/caterpillar.jpeg"         alt="Booterfly!"
                 width={"800"}
                 height={"800"} 
                 objectFit="cover"          
@@ -42,7 +44,7 @@ export default function Home() {
           <div className='btn items-center mix-blend-overlay hover:blur-sm'>
             <a href="" className=''>
               <Image 
-                src="/static/butterfly_park.jpeg"         alt="Booterfly!"
+                src="/projects/static/butterfly_park.jpeg"         alt="Booterfly!"
                 width={"800"}
                 height={"800"} 
                 objectFit="cover"          
@@ -56,7 +58,7 @@ export default function Home() {
           <div className='btn items-center mix-blend-overlay hover:blur-sm'>
             <a href="mailto:sayfti@gmail.com" className=''>
               <Image 
-                src="/static/hill.jpeg"         alt="Booterfly!"
+                src="/projects/static/hill.jpeg"         alt="Booterfly!"
                 width={"800"}
                 height={"800"} 
                 objectFit="cover"          
@@ -70,7 +72,7 @@ export default function Home() {
           <div className='btn items-center mix-blend-overlay hover:blur-sm'>
             <a href="" className=''>
               <Image 
-                src="/static/shop_fish.jpeg"         alt="Booterfly!"
+                src="/projects/static/shop_fish.jpeg"         alt="Booterfly!"
                 width={"800"}
                 height={"800"} 
                 objectFit="cover"          
@@ -84,7 +86,7 @@ export default function Home() {
           <div className='btn items-center rounded-md mix-blend-overlay hover:blur-sm'>
             <a href="mailto:sayfti@gmail.com" className=''>
               <Image 
-                src="/static/btfly.jpg"         alt="Booterfly!"
+                src="/projects/static/btfly.jpg"         alt="Booterfly!"
                 width={"800"}
                 height={"800"} 
                 objectFit="none"          
