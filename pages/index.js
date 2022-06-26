@@ -7,9 +7,9 @@ export default function Home() {
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center gap-5 sm:gap-0 md:gap-1 lg:gap-1 items-center p-0 m-0 max-w-7xl mx-auto'>
       
         <div className='bg-gray-600 relative'>
-          <p className='absolute left-4 text-4xl justify-center text-white '>"ABOUT ME" Terminal</p>
+          <p className='absolute left-4 text-4xl justify-center text-white '>ABOUT ME Terminal</p>
           <div className='btn items-center mix-blend-overlay  '>
-            <p className='bg-stone-100 absolute z-10 h-full w-full mt-20 opacity-0 focus:opacity-100 hover:opacity-100 text-black font-thin justify-center mix-blend-normal indent-4'>Get started by typing "help" to learn more!  </p>
+            <p className='bg-stone-100 absolute z-10 h-full w-full mt-20 opacity-0 focus:opacity-100 hover:opacity-100 text-black font-thin justify-center mix-blend-normal indent-4'>Get started by typing into the prompt to learn more!  </p>
             <p>
               <br />
               <a className='bg-black hover:underline text-blue-50 ' href='#'> APP </a>

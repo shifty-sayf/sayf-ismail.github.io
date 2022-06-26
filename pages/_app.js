@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
         <ul className='hidden space-x-8 sm:flex justify-between gap-12 py-5 px-12 text-grey'>
           <li><Link href="/about">About</Link></li>
           <li>Blog</li>
-          <li><a href="https://drive.google.com/file/d/1sYphYht7gNwCBBYx4LW9E8d8D-PcXcH_/view?usp=sharing" target="_blank">Resume</a></li>
+          <li><a href="https://drive.google.com/file/d/1sYphYht7gNwCBBYx4LW9E8d8D-PcXcH_/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></li>
         </ul>
         <div className="sm:hidden space-y-2 m-auto pr-12">
           <span className="block w-8 h-1 bg-gray-700"></span>
@@ -27,9 +27,9 @@ function MyApp({ Component, pageProps }) {
     </div>
     <footer className='bottom-0 flex-none w-full bg-gradient-to-r from-slate-200 to-gray-50 py-8 text-stone-700 font-bold'>
       <ul className='flex space-y-2 flex-col md:flex-row justify-center gap-1 md:gap-20 items-center'>
-          <li><a href="https://github.com/sayf-ismail" target="_blank">Github</a></li>
-          <li><a href="https://www.linkedin.com/in/sayf-ismail/" target="_blank">Linkedin</a></li>
-          <li><a href="https://twitter.com/Sayfs0" target="_blank">Twitter</a></li>
+          <li><a href="https://github.com/sayf-ismail" target="_blank" rel="noreferrer">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/sayf-ismail/" target="_blank" rel="noreferrer">Linkedin</a></li>
+          <li><a href="https://twitter.com/Sayfs0" target="_blank" rel="noreferrer">Twitter</a></li>
           <li>Blog</li>
           <li><a href="mailto:sayfti@gmail.com">Contact Me</a></li>
       </ul>
