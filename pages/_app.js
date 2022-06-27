@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }) {
       </ul>
     </footer>
     <section className='flex-none w-full bg-gradient-to-r from-slate-200 to-gray-50 py-8 text-stone-700 mt-0 mx-auto text-center'>
-    © 2022 Sayf Ismail. All rights reserved.
+    © 2022 Sayf Ismail. All rights reserved. Built with Next.js, Tailwind and Vercel.
     </section>
   </div>
   )
