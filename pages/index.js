@@ -27,7 +27,7 @@ export default function Home() {
           </div>
         </div>
         <Link href="https://whitelist-dapp-two-iota.vercel.app/">
-          <a target="_blank" className='h-0 w-0 '>
+          <a target="_blank">
             <div className='bg-gray-800 relative'>
               <p className='absolute left-4 text-4xl justify-center text-white '>Whitelist DApp</p>
               <div className='btn items-center mix-blend-overlay hover:blur-sm'>
