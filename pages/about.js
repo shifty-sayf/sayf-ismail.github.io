@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Fragment } from 'react';
 import { ReactTerminal } from 'react-terminal';
 
 
@@ -37,13 +38,13 @@ const About = () => {
   }
 
   return (
-    <>
+    <Fragment>
       <h1>ABOUT PAGE</h1>
       <div className='bg-gray-300 w-3/4 mx-auto h-20'>
 
         <p>Type 'help' to get started ;)</p>
         
-        <div>
+        <div className='block'>
           <ReactTerminal 
             theme="dracula"
             commands={commands} 
@@ -52,7 +53,7 @@ const About = () => {
 
         <Link href="/">Back to Home</Link>
       </div>
-    </>
+    </Fragment>
   )
 };
 
