@@ -40,7 +40,7 @@ const About = () => {
   return (
     <Fragment>
       <h1>ABOUT PAGE</h1>
-      <div className='bg-gray-300 w-3/4 mx-auto h-20'>
+      <div className='bg-gray-300 w-3/4 mx-auto h-full'>
 
         <p>Type 'help' to get started ;)</p>
         

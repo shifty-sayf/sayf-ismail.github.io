@@ -6,14 +6,14 @@ const prefix = '/';
 export default function Home() {
   return (
     // <main className='items-center sm:bg-yellow-300 md:bg-green-300 lg:bg-pink-300 xl:bg-blue-300 2xl:bg-red-300 w-full'>
-    <main className=' items-center'>
+    <main className=' items-center h-full'>
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center gap-5 sm:gap-0 md:gap-1 lg:gap-1 items-center p-0 m-0 max-w-7xl mx-auto'>
       
         <Link href="/about">
-          <a target="_blank">
+          <a target="">
             <div className='bg-green-900 relative'>
               <p className='absolute left-4 text-4xl justify-center text-white '>ABOUT ME Terminal</p>
-              <div className='btn items-center mix-blend-overlay  '>
+              <div className='btn items-center mix-blend-overlay'>
                 <p className='bg-stone-50 absolute z-10 h-full w-full mt-20 opacity-0 focus:opacity-100 hover:opacity-100 text-black font justify-center mix-blend-normal indent-4'>Get started by typing into the prompt to learn more!  </p>
                 <p>
                   {/* <br />
@@ -21,10 +21,10 @@ export default function Home() {
                 </p>
                 <Image 
                   src="/projects/static/dome.jpg"         alt="Booterfly!"
+                  height={"800"}
                   width={"800"}
-                  height={"800"} 
+                  // layout='fill'
                   objectFit="cover"          
-                  className=''
                   />
               </div>
             </div>
