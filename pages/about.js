@@ -26,8 +26,8 @@ const About = () => {
     projects:       
       <>
         <strong>"Here are my...PROJECTS!"</strong> <br />
-        1. This project:
-        https://www.google.com <br />
+        1. Whitelist-DApp:
+        https://whitelist-dapp-two-iota.vercel.app/ <br />
         2. This project:
         https://www.google.com <br />
         3. This project:

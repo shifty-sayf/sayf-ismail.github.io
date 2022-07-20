@@ -1,4 +1,5 @@
-import Image from 'next/image'
+import Image from 'next/image';
+import Link from 'next/link';
 
 const prefix = '/projects';
 
@@ -16,13 +17,15 @@ export default function Home() {
               {/* <br />
               <a className='bg-black hover:underline text-blue-50 ' href=''> APP </a> */}
             </p>
+            <Link href="https://whitelist-dapp-two-iota.vercel.app/">
             <Image 
               src="/projects/static/dome.jpg"         alt="Booterfly!"
               width={"800"}
               height={"800"} 
               objectFit="cover"          
               className=''
-            />
+              />
+            </Link>
           </div>
         </div>
         <div className='bg-gray-800 relative'>
@@ -30,7 +33,7 @@ export default function Home() {
           <div className='btn items-center mix-blend-overlay hover:blur-sm'>
             <a href="" className='h-0 w-0 '>
               <Image 
-                src="https://whitelist-dapp-two-iota.vercel.app/"         alt="Booterfly!"
+                src="/projects/static/caterpillar.jpeg"         alt="Booterfly!"
                 width={"800"}
                 height={"800"} 
                 objectFit="cover"          
