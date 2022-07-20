@@ -26,11 +26,11 @@ export default function Home() {
           </div>
         </div>
         <div className='bg-gray-800 relative'>
-          <p className='absolute left-4 text-4xl justify-center text-white '>PROJECT: 2</p>
+          <p className='absolute left-4 text-4xl justify-center text-white '>Whitelist DApp</p>
           <div className='btn items-center mix-blend-overlay hover:blur-sm'>
             <a href="" className='h-0 w-0 '>
               <Image 
-                src="/projects/static/caterpillar.jpeg"         alt="Booterfly!"
+                src="https://whitelist-dapp-two-iota.vercel.app/"         alt="Booterfly!"
                 width={"800"}
                 height={"800"} 
                 objectFit="cover"          

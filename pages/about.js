@@ -21,23 +21,25 @@ const About = () => {
         <strong>secret</strong> - don't type this! <br/>
       </span>
       ),
-    whois: "Call me Sayf!",
+    whois: "Hello! I'm a Software Developer / former Mechanical Engineer / Project Manager / Scrum Master and I love to code!",
     cd: (directory) => `changed path to ${directory}`,
-    // banner: (
-    //   // <> 
-    //   //   {/* <p>  __   __       ___   ___      ___   ___ </p> 
-    //   //   <p> (  \,/  )     ( @ \Y/ @ )    ((o)\,/(o))</p>
-    //   //   <p>  \_ | _/       \__+|+__/      \__ | __/</p>
-    //   //   <p>  (_/ \_)        {_/ \_}        {_/ \_} </p> */}
-    //   // </>
-    //   ),
+    projects:       
+      <>
+        <strong>"Here are my...PROJECTS!"</strong> <br />
+        1. This project:
+        https://www.google.com <br />
+        2. This project:
+        https://www.google.com <br />
+        3. This project:
+        https://www.google.com <br />
+      </>,
     this: "I said don't! "
   }
 
   return (
     <>
       <h1>ABOUT PAGE</h1>
-      <div className='bg-gray-300 w-3/4 mx-auto'>
+      <div className='bg-gray-300 w-3/4 mx-auto h-20'>
 
         <p>Type 'help' to get started ;)</p>
         
