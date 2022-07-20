@@ -27,20 +27,20 @@ export default function Home() {
           </div>
         </div>
         <Link href="https://whitelist-dapp-two-iota.vercel.app/">
-          <div className='bg-gray-800 relative'>
-            <p className='absolute left-4 text-4xl justify-center text-white '>Whitelist DApp</p>
-            <div className='btn items-center mix-blend-overlay hover:blur-sm'>
-              <a target="_blank" className='h-0 w-0 '>
-                <Image 
-                  src="/projects/static/caterpillar.jpeg"         alt="Booterfly!"
-                  width={"800"}
-                  height={"800"} 
-                  objectFit="cover"          
-                  className=''
-                  />
-              </a>
+          <a target="_blank" className='h-0 w-0 '>
+            <div className='bg-gray-800 relative'>
+              <p className='absolute left-4 text-4xl justify-center text-white '>Whitelist DApp</p>
+              <div className='btn items-center mix-blend-overlay hover:blur-sm'>
+                  <Image 
+                    src="/projects/static/caterpillar.jpeg"         alt="Booterfly!"
+                    width={"800"}
+                    height={"800"} 
+                    objectFit="cover"          
+                    className=''
+                    />
+              </div>
             </div>
-          </div>
+          </a>
         </Link>
         <div className='bg-gray-700 relative'>
           <p className='absolute left-4 text-4xl justify-center text-white '>PROJECT: 3</p>
